@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "openlist-apis-page",
+  "main": "src/cfapp.ts",
+  "compatibility_date": "2025-05-25",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "MAIN_URLS": "api.09888888.xyz",
+    "PROXY_API": "1",
+    "onedrive_uid": "1",
+    "onedrive_key": "1",
+    "alicloud_uid": "1",
+    "alicloud_key": "1",
+    "baiduyun_uid": "1",
+    "baiduyun_key": "1",
+    "baiduyun_ext": "1",
+    "cloud115_uid": "1",
+    "cloud115_key": "1",
+    "googleui_uid": "1",
+    "googleui_key": "1",
+    "yandexui_uid": "1",
+    "yandexui_key": "1",
+    "dropboxs_uid": "1",
+    "dropboxs_key": "1",
+    "quarkpan_uid": "1",
+    "quarkpan_key": "1",
+    "cloud123_uid": "1",
+    "cloud123_key": "1",
+    "cloud123_url": "1"
+  },
+  "site": {
+    "bucket": "./public"
+  }
+}
